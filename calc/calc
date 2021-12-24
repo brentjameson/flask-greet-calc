@@ -3,7 +3,7 @@ from flask import Flask, request
 app = Flask(__name__)
 
 @app.route('/welcome')
-def welcome_user():
+def add_nums():
     '''Return welcome message'''
     html = '<html><body><h1>welcome</h1></body></html>'
     return html
